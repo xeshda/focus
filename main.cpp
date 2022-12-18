@@ -23,14 +23,12 @@ int main(){
 	while(1){
 
 	system("play focus.mp3");
-  //timer(25*60);
-  timer(3);
+  timer(25*60);
 	end();
   std::cout << "\033[0m" << std::endl; // reset color code
 
   system("play take-a-break.mp3");
-	//timer(5*60);
-	timer(3);
+	timer(5*60);
 	end();
   std::cout << "\033[0m" << std::endl; // reset color code
 	}
